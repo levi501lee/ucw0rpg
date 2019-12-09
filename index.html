@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>The UCW-Zero Beatdown</title>
+		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<!-- jQuery library-->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Game -->
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</head>
+
+	<body>
+		<div class="main-section-title">The UCW-Zero Beatdown RPG!</div>
+		<div id="main-game-section">
+			<!-- Where the wrestlers are initially available to be selected. -->
+			<div id="wrestlers-section">
+				<div class="section-title">Select Your Wrestler Now!</div>
+			</div>
+			
+			<!-- Section for our selected wrestler. -->
+			<div id="selected-wrestler-section">
+				<div class="section-title">Your Wrestler</div>
+				<!-- Where our selected wrestler will appear. -->
+				<div id="selected-wrestler"></div>
+			</div>
+
+			<!-- Where our enemies available to attack will appear. -->
+			<div id="available-to-attack-section">
+				<div class="section-title">Wrestlers Available To Attack</div>
+			</div>
+
+			<div class="section-title">Fight Section</div>
+			<div id="fight-section">
+				<button id="attack-button">Attack</button>
+			</div>
+
+			<div id="action">
+				<div class="wrestler-section">
+					<div class="section-title">Defender</div>
+					<!-- Where our defender will appear. -->
+					<div id="defender"></div>
+				</div>
+			</div>
+
+		</div>
+		<!-- Area for game messages. -->
+		<div id="game-message"></div>
+	</body>
+
+</html>
 
